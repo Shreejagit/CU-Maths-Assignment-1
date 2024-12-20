@@ -76,3 +76,5 @@ if __name__ == "__main__":
         if a is None or b is None or not (a < b):
             raise ValueError("For uniform distribution, 'a' and 'b' must be provided with 'a' < 'b'.")
         probabilities = [uniform_dist(a, b, x) for x in vals]
+
+        
